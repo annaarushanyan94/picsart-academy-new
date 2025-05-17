@@ -20,7 +20,7 @@ public class BubbleSort {
 
         }
 
-        int v = 7;
+        int v = 9;
         for (int j = v; j > 0; j--) {
             if (j % 2 != 0) {
                 for (int k = 0; k < (v - j) / 2; k++) {
