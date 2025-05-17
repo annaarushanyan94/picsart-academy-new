@@ -34,23 +34,6 @@ public class BubbleSort {
             }
 
 }
-       /* int[] n = {3, 1, 5, 2, 4};
-        for (int i = 0; i < n.length - 1; i++) {
-            for (int j = 0; j < n.length - i - 1; j++) {
-                System.out.println(" ");
-            }
-            for (int k = 0; k < n.length; k++) {
-                System.out.println("*");
-            }
-            System.out.println();
-        }
-    }
-}
-                /*if (n[j] > n[j + 1]) {
-                    int temp = n[j];
-                    n[j] = n[j + 1];
-                    n[j + 1] = temp;
-                     for (int s = 1; s<= (2*i-1); S++) {sout  "*"} */
 
 
 
