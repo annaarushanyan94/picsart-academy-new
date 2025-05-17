@@ -18,22 +18,25 @@ public class BubbleSort {
 
             }
 
-                    int  a = 9;
-                    for (int l = a; l > 0; l--) {
-                        if (l % 2 != 0) {
-                            for (int j = 0; j < (a - l) / 2; j++) {
-                                System.out.print(" ");
-                            }
-                            for (int k = 0; k < l; k++) {
-                                System.out.print("*");
-                            }
-                            System.out.println();
-                        }
-                    }
+        }
+
+        int v = 7;
+        for (int j = v; j > 0; j--) {
+            if (j % 2 != 0) {
+                for (int k = 0; k < (v - j) / 2; k++) {
+                    System.out.print(" ");
                 }
+                for (int k = 0; k < j; k++) {
+                    System.out.print("*");
+                }
+                System.out.println();
             }
 
+        }
+    }
+
 }
+
 
 
 
